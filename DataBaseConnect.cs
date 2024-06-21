@@ -7,7 +7,7 @@ namespace heumnEXdemo2
 {
     public class DataBaseConnect
     {
-        private static string path = "server=192.168.3.11;port=3306;database = heumndb; user = heumnDB; password = 12312345";
+        private static string path = "server=...............;port=3306;database = heumndb; user = heumnDB; password = 12312345";
 
         private static MySqlConnection sqlConnection = new MySqlConnection(path);
 
